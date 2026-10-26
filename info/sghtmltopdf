@@ -2,3 +2,6 @@
 0.5.1.g257bf07-aarch64-linux |checksum:g5eidcDq1s1QX72Cz7bryqBa6vnYasV7dwpXMFIaBp0=,ruby:< 4.1.dev&>= 3.4
 0.5.1.g257bf07-arm64-darwin |checksum:z0HgtIBRNKCq8P9Jj2IapatF+XA2CNJQ8nVIuU4Jq8U=,ruby:< 4.1.dev&>= 3.4
 0.5.1.g257bf07-x86_64-linux |checksum:zlrzqZo9r8Co4/9Vxdk8368nTDmEpuagOiuAyglwo0U=,ruby:< 4.1.dev&>= 3.4
+0.6.1.g4b65e9c-aarch64-linux |checksum:WB59r7g0asTCCMsup/J9L8guZJHoL3+rnpOMEDsXr2s=,ruby:< 4.1.dev&>= 3.4
+0.6.1.g4b65e9c-arm64-darwin |checksum:bW1Vu7aaMQJXfeZTAUPnwMeophUntRiGVhKvcBGyvvY=,ruby:< 4.1.dev&>= 3.4
+0.6.1.g4b65e9c-x86_64-linux |checksum:XkCdfYUitaMpDPGS86D3dd9QmWUzEFMfw1x/THIuIno=,ruby:< 4.1.dev&>= 3.4

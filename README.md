@@ -5,7 +5,7 @@ Prebuilt [sghtmltopdf](https://github.com/waka/sghtmltopdf) gems for SENRI, buil
 ```ruby
 # Gemfile
 source 'https://afri-inc.github.io/sghtmltopdf-gems' do
-  gem 'sghtmltopdf', '0.5.1.g257bf07'
+  gem 'sghtmltopdf', '0.6.1.g4b65e9c'
 end
 ```
 
@@ -15,6 +15,7 @@ The version is the upstream gem version plus `g` and the short hash of the upstr
 
 | Version | Upstream commit | Build branch (fork) | Build run | Platforms | Ruby |
 |---|---|---|---|---|---|
+| `0.6.1.g4b65e9c` | [`4b65e9cc80e4ba868172508d6bf5902d9e8ca432`](https://github.com/waka/sghtmltopdf/commit/4b65e9cc80e4ba868172508d6bf5902d9e8ca432) | [`dai199/sghtmltopdf@build/gem-4b65e9c`](https://github.com/dai199/sghtmltopdf/tree/build/gem-4b65e9c) | [40293516656](https://github.com/dai199/sghtmltopdf/actions/runs/40293516656) | `aarch64-linux`, `x86_64-linux`, `arm64-darwin` | 3.4, 4.0 |
 | `0.5.1.g257bf07` | [`257bf0752e5e805cc5bd4d6d53ecc231dfcdc91d`](https://github.com/waka/sghtmltopdf/commit/257bf0752e5e805cc5bd4d6d53ecc231dfcdc91d) | [`dai199/sghtmltopdf@build/gem-257bf07`](https://github.com/dai199/sghtmltopdf/tree/build/gem-257bf07) | [38505717771](https://github.com/dai199/sghtmltopdf/actions/runs/38505717771) | `aarch64-linux`, `x86_64-linux`, `arm64-darwin` | 3.4, 4.0 |
 
 The build branch is the upstream commit plus one commit that sets the version and narrows `.github/workflows/gem.yml` to the platforms and Ruby versions above. The gems are built by that workflow (`workflow_dispatch`, `dry_run: true`), so nothing is published to rubygems.org.
